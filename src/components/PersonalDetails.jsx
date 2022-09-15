@@ -1,18 +1,16 @@
 import React, { Component } from "react";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class PersonalDetails extends Component {
-  
   continue = (e) => {
     e.preventDefault();
 
-      this.props.nextStep();
+    this.props.nextStep();
   };
-
 
   render() {
     const { values, handleChange } = this.props;
-   
+
     return (
       <div className="container animated fadeInLeft containerShadow">
         <h2 className="card-title text-center">Personal Info</h2>
@@ -106,11 +104,7 @@ export default class PersonalDetails extends Component {
             >
               Next
             </button> */}
-            <input
-              type="submit"
-              className="btn my-3"
-              value="Next"
-            />
+            <input type="submit" className="btn my-3" value="Next" />
           </div>
         </form>
       </div>

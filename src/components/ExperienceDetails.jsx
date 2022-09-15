@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class ExperienceDetails extends Component {
   continue = (e) => {

@@ -1,14 +1,14 @@
 import './App.css';
 import Home from './components/Home';
+import "bootstrap/dist/css/bootstrap.min.css";
 import UserForm from './components/UserForm';
-// import ExportPdfComponent from './ExportPdfComponent';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-    <UserForm/>
-    {/* <ExportPdfComponent/> */}
+      <Home />
+      <UserForm />
+      {/* <ExportPdfComponent/> */}
     </div>
   );
 }
