@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import EducationDetails from './EducationDetails';
-import ExperienceDetails from './ExperienceDetails';
-import PersonalDetails from './PersonalDetails';
-import ProjectInfo from './ProjectInfo';
-import Template from '../Template';
-import ExportPdfComponent from '../ExportPdfComponent';
+import React, { Component } from "react";
+import EducationDetails from "./EducationDetails";
+import ExperienceDetails from "./ExperienceDetails";
+import PersonalDetails from "./PersonalDetails";
+import ProjectInfo from "./ProjectInfo";
+import ExportPdfComponent from "../ExportPdfComponent";
 
 export default class UserForm extends Component {
   state = {
@@ -43,7 +42,7 @@ export default class UserForm extends Component {
     title2: "",
     link2: "",
     project_dec2: "",
-    
+
     // status: 0
   };
 
@@ -63,11 +62,9 @@ export default class UserForm extends Component {
     });
   };
 
-
-
-  handleChange = input => e => {
-    this.setState({[input]: e.target.value}); 
-  }
+  handleChange = (input) => (e) => {
+    this.setState({ [input]: e.target.value });
+  };
 
   render() {
     const { step } = this.state;
