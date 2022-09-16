@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/credible-cv/static/css/main.88d47b26.css",
+    "main.js": "/credible-cv/static/js/main.ab9ee858.js",
+    "static/media/resumeIconn.png": "/credible-cv/static/media/resumeIconn.3c806c69016e1644d242.png",
+    "index.html": "/credible-cv/index.html",
+    "main.88d47b26.css.map": "/credible-cv/static/css/main.88d47b26.css.map",
+    "main.ab9ee858.js.map": "/credible-cv/static/js/main.ab9ee858.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d47b26.css",
+    "static/js/main.ab9ee858.js"
+  ]
+}
