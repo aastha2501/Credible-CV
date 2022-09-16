@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aastha2501.github.io/credible_cv",
+  "homepage": "http://aastha2501.github.io/credible-cv",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
@@ -10,6 +10,7 @@
     "axios": "^0.26.1",
     "bootstrap": "^5.2.1",
     "file-saver": "^2.0.5",
+    "gh-pages": "^4.0.0",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "react": "^18.0.0",
